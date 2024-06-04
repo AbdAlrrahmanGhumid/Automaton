@@ -11,7 +11,7 @@ public class Automaton {
     LinkedList<State> states = null;
     LinkedList<Transition> transitions = null;
     List<List<Object>> table = new ArrayList<>();
-
+    
     public Automaton(String name, State startingState, State endingState){
         states = new LinkedList<>();
         transitions = new LinkedList<>();
@@ -21,6 +21,7 @@ public class Automaton {
         this.startingState = startingState;
         this.name = name;
     }
-
-
 }
+
+
+
